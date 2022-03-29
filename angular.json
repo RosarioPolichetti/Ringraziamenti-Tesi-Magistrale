@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ringraziamenti_tesi_magistrale": {
+    "ringraziamenti": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ringraziamenti_tesi_magistrale:build:production"
+              "browserTarget": "ringraziamenti:build:production"
             },
             "development": {
-              "browserTarget": "ringraziamenti_tesi_magistrale:build:development"
+              "browserTarget": "ringraziamenti:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ringraziamenti_tesi_magistrale:build"
+            "browserTarget": "ringraziamenti:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "ringraziamenti_tesi_magistrale"
+  "defaultProject": "ringraziamenti"
 }
